@@ -1,0 +1,1 @@
+# Programm zur generierung von Passwörter unterschiedlicher länge mittels strings!
