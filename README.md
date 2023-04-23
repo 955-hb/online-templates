@@ -1,3 +1,3 @@
 # online-templates
  
-various exercises I found on the net. 
+various exercises I found online!. 
