@@ -20,14 +20,16 @@ Download
 Tasks
 1/7 Complete
 Mark the tasks as complete by checking them off
-1.
+
+
+#1.
 Create a generateTarget() function. This function should return a random integer between 0 and 9.
 
 The purpose of this function is to be called at the start of each new round in order to generate the new secret target number.
 
 
-Stuck? Get a hint
-2.
+
+#2.
 Create a compareGuesses() function. This function:
 
 Has three parameters representing the user (human) guess, a computer guess, and the secret target number to be guessed.
@@ -36,8 +38,7 @@ Return true if the human player wins, and false if the computer player wins.
 The purpose of this function is to be called each round to determine which guess is closest to the target number.
 
 
-Stuck? Get a hint
-3.
+#3.
 Create an updateScore() function. This function:
 
 Has a single parameter. This parameter will be a string value representing the winner.
@@ -46,8 +47,7 @@ Does not need to return any value.
 The purpose of this function is to be used to correctly increase the winner’s score after each round.
 
 
-Stuck? Get a hint
-4.
+#4.
 Create an advanceRound() function. This function should increase the value of currentRoundNumber by 1.
 
 The purpose of this function is to be used to update the round number after each round.
@@ -55,18 +55,16 @@ The purpose of this function is to be used to update the round number after each
 After completing advanceRound(), your Number Guesser game should be fully operational. You should be able to make guesses, see your or the computer score increase correctly, move to the next round, and see the correct round displayed.
 
 
-Stuck? Get a hint
-5.
+#5.
 Test that your code is working properly by invoking your newly written functions within script.js with sample inputs. You can delete this code once you’re convinced that everything is working as it should.
 
 
-Stuck? Get a hint
-6.
+#6.
 Great work! If you’d like to see the solution, move to the next task. If you’d like to extend your project on your own, you could consider the following:
 
 You probably calculated the distance from the computer guess to the target and from the human guess to the target. Move this into a separate getAbsoluteDistance() function that takes two numbers and returns the distance, and then use that inside your compareGuesses() function.
 Add functionality to check whether the user guess is between 0 and 9 and alert() the user that their number is out of range. It’s not possible to set a number outside this range with the + and = buttons, but users can do so by typing directly in the input field.
 
-Stuck? Get a hint
-7.
+
+#7.
 Great work! Visit our forums to compare your project to our sample solution code. You can also learn how to host your own solution on GitHub so you can share it with other learners! Your solution might look different from ours, and that’s okay! There are multiple ways to solve these projects, and you’ll learn more by seeing others’ code.
